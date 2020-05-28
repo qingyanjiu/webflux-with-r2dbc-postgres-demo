@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: webflux
+  r2dbc:
+    username: postgres
+    password: example
+    url: r2dbc:postgres://106.75.119.242:35432/test
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.data.r2dbc: debug
